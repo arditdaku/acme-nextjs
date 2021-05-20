@@ -1,8 +1,4 @@
-import Henexad from "next/head";
-import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
-import { GetStaticProps } from "next";
-
 export default function Home({
   allPostsData,
 }: {
@@ -12,5 +8,5 @@ export default function Home({
     id: string;
   }[];
 }) {
-  return <div>here</div>;
+  return <div className="font-bold">here</div>;
 }
